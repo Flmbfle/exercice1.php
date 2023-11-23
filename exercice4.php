@@ -69,11 +69,9 @@
         return true;
     }
 
-    // Exemple d'utilisation
     $resultat = complex_password("Top");
-
-    // Afficher le résultat
     echo $resultat ? "Mot de passe valide" : "Mot de passe invalide";
+    
     ?>
 </body>
 </html>
