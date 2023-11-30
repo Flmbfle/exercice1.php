@@ -29,7 +29,7 @@
         //Vérifie si le fichier a été lu avec succès
         if ($customers !== false) {
             echo 
-            "<table class='table table-light border border-black'>
+            "<table class='table shadow table-striped table-responsive text-center border border-2'>
                 <thead>
                     <tr>
                         <th>Prénom</th>
@@ -65,6 +65,9 @@
             };
             echo"</tbody></table>";
         }
+        else {
+            echo "Erreur lors de la lecture du fichier."; // message d'alerte
+        };
     ?>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
