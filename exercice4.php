@@ -16,6 +16,7 @@
             <li><a href='exercice2.php'>Exercice 2</a></li>
             <li><a href='exercice3.php'>Exercice 3</a></li>
             <li><a href='exercice4.php'>Exercice 4</a></li>
+            <li><a href='exercice5.php'>Exercice 5</a></li>
         </ul>
     </nav>";
 
@@ -24,7 +25,7 @@
     echo "<h2>1.Ecrivez une fonction qui permette de générer un lien.</h2>";
     function genererLien($lien, $titre)
     {
-        $lienHTML = "<p><a href='$lien'>$titre</a>";
+        $lienHTML = "<p><a href='$lien'>$titre</a></p>";
         return $lienHTML;
     }
 
@@ -42,7 +43,7 @@
         return $tabSomme;
     }
     $resultat = somme($tab);
-    echo "<p>La somme des valeurs du tableau est = $resultat";
+    echo "<p>La somme des valeurs du tableau est = $resultat</p>";
 
 
     //EXERCICE 3
@@ -70,7 +71,7 @@
     }
 
     $resultat = complex_password("Top");
-    echo $resultat ? "Mot de passe valide" : "Mot de passe invalide";
+    echo $resultat ? "<p>Mot de passe valide</p>" : "<p>Mot de passe invalide</p>";
     
     ?>
 </body>
