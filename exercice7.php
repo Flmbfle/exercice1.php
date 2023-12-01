@@ -7,6 +7,23 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+    echo 
+    "<nav>
+        <ul>
+            <li><a href='exercice1.php'>Exercice 1</a></li>
+            <li><a href='exercice2.php'>Exercice 2</a></li>
+            <li><a href='exercice3.php'>Exercice 3</a></li>
+            <li><a href='exercice4.php'>Exercice 4</a></li>
+            <li><a href='exercice5.php'>Exercice 5</a></li>
+            <li><a href='exercice6.php'>Exercice 6</a></li>
+            <li><a href='exercice7.php'>Exercice 7</a></li>
+            <li><a href='exercice8.php'>Exercice 8</a></li>
+            <li><a href='exercice9.php'>Exercice 9</a></li>
+            <li><a href='exercice10.php'>Exercice 10</a></li>
+        </ul>
+    </nav>";
+    ?>
     <form action="traitement.php" method="post" class="row d-flex justify-content-around">
         <!-- NOM PRENOM-->
         <div class="my-2">
@@ -49,23 +66,6 @@
             </div>
         </div>
     </form>
-    <?php
-    echo 
-    "<nav>
-        <ul>
-            <li><a href='exercice1.php'>Exercice 1</a></li>
-            <li><a href='exercice2.php'>Exercice 2</a></li>
-            <li><a href='exercice3.php'>Exercice 3</a></li>
-            <li><a href='exercice4.php'>Exercice 4</a></li>
-            <li><a href='exercice5.php'>Exercice 5</a></li>
-            <li><a href='exercice6.php'>Exercice 6</a></li>
-            <li><a href='exercice7.php'>Exercice 7</a></li>
-            <li><a href='exercice8.php'>Exercice 8</a></li>
-            <li><a href='exercice9.php'>Exercice 9</a></li>
-            <li><a href='exercice10.php'>Exercice 10</a></li>
-        </ul>
-    </nav>";
-    ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
