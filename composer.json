@@ -1,0 +1,17 @@
+{
+    "name": "flambi/exercice",
+    "autoload": {
+        "psr-4": {
+            "Flambi\\Exercice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Flmbfle",
+            "email": "erwantotet@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
